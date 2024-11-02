@@ -1,0 +1,114 @@
+main {
+    margin: 150px 0 0 0;
+}
+
+.rad50 {
+    border-radius: 50%;
+}
+main {
+    margin:150px 0 0 0;
+    padding: 0 0 0 0;
+}
+
+/* Nav bar styles */
+/*nav {
+    padding: 0;
+    margin: 0;
+    height: 150px;
+    background-color:rgba(255, 255, 255, .9);
+    /*border-bottom:#AE360E 10px solid;*/
+/*}
+.navbar-brand {min-width:40%;}
+.navbar-brand img {max-height: 130px;}
+
+.navbar-nav .nav-link {
+    padding-left: 1em;
+    font-weight: 500;
+}
+.navbar-nav .nav-link.active {
+    color:#fff!important;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.nav-pills .nav-link {
+    color: #ffffff;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #ffffff;
+    background-color: #AE360E!important;
+}
+.navbar-collapse.collapse.show .navbar-nav {
+    background-color:#ffffff;
+}*/
+.navbar-toggler {
+    right: 15px;
+    position: absolute;
+    top: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    color: #ffffff;
+    background-color:#AE360E;
+}
+footer i {
+    font-size:3em; color:#ffffff;
+
+}
+footer li a {
+    font-size: 14px!important;
+    color:#ffffff!important;
+
+}
+
+/*`sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (min-width: 575.98px) { 
+    .navbar-brand {width:50%;}
+    main {
+        padding: 0 0 0 0;
+    }
+    .hero,.content {min-height:375px;}
+    
+}
+
+/*`md` applies to small devices (landscape phones, less than 768px)*/
+@media (min-width: 767.98px) {
+    .navbar-brand {width:47.5%;}
+    main {
+        padding: 0;
+    }
+    .hero,.content {min-height:475px;}
+
+}
+
+/*`lg` applies to medium devices (tablets, less than 992px)*/
+@media (min-width: 991.98px) {
+    .navbar-brand {width:45%;}
+    .hero,.content {min-height:575px;}
+
+}
+
+/*`xl` applies to large devices (desktops, less than 1200px)*/
+@media (min-width: 1199.98px) {
+    .navbar-brand {width:42.5%;}
+    .hero,.content {min-height:675px;}
+
+   
+}
+
+/*`xxl` applies to x-large devices (large desktops, less than 1400px)*/
+@media (min-width: 1399.98px) {
+    .navbar-brand {width:40%;}
+    .hero,.content {min-height:775px;}
+
+}
+
