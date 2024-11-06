@@ -1,49 +1,17 @@
-main {
-    margin: 150px 0 0 0;
-}
 
-.rad50 {
-    border-radius: 50%;
-}
-main {
-    margin:150px 0 0 0;
-    padding: 0 0 0 0;
-}
-
-/* Nav bar styles */
-/*nav {
-    padding: 0;
-    margin: 0;
-    height: 150px;
-    background-color:rgba(255, 255, 255, .9);
-    /*border-bottom:#AE360E 10px solid;*/
-/*}
-.navbar-brand {min-width:40%;}
-.navbar-brand img {max-height: 130px;}
-
-.navbar-nav .nav-link {
-    padding-left: 1em;
-    font-weight: 500;
-}
-.navbar-nav .nav-link.active {
-    color:#fff!important;
-    font-weight: 700;
-    text-decoration: underline;
-}
-.nav-pills .nav-link {
-    color: #ffffff;
-}
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #ffffff;
-    background-color: #AE360E!important;
-}
-.navbar-collapse.collapse.show .navbar-nav {
-    background-color:#ffffff;
-}*/
+h1 {font-size: 75px;}
+h1 {font-size: 55px;}
 .navbar-toggler {
     right: 15px;
     position: absolute;
     top: 23px;
+}
+main {
+    margin: 150px 0 0 0;
+}
+#ocg-home .hero {
+    background:#a3a3a3 url('../ocg-images/hp-hero-bg-1500x1000.jpg') no-repeat 0% 60%;
+    background-size: cover;
 }
 
 
