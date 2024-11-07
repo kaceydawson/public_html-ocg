@@ -1,6 +1,14 @@
 
 h1 {font-size: 75px;}
-h1 {font-size: 55px;}
+h2 {font-size: 55px;}
+
+.accent-green {
+    -webkit-box-shadow: 0px 33px 5px -1px rgba(24,77,71,1);
+    -moz-box-shadow: 0px 33px 5px -1px rgba(24,77,71,1);
+    box-shadow: 0px 33px 5px -1px rgba(24,77,71,1);
+}
+.bg-ltgreen { background-color:#D2DBDA; }
+
 .navbar-toggler {
     right: 15px;
     position: absolute;
@@ -10,23 +18,17 @@ main {
     margin: 150px 0 0 0;
 }
 #ocg-home .hero {
-    background:#a3a3a3 url('../ocg-images/hp-hero-bg-1500x1000.jpg') no-repeat 0% 60%;
+    background:#a3a3a3 url('../ocg-images/hp-hero-bg-1500x1000.jpg') no-repeat 60% 60%;
     background-size: cover;
+    min-height: 675px;
+}
+#ourExpertise img {
+    border-radius: 50%;
+    width: 60%;
 }
 
-
-
-
-
-
-
-
-
-
-
 footer {
-    color: #ffffff;
-    background-color:#AE360E;
+    
 }
 footer i {
     font-size:3em; color:#ffffff;
@@ -45,6 +47,11 @@ footer li a {
         padding: 0 0 0 0;
     }
     .hero,.content {min-height:375px;}
+    #ocg-home .hero {
+        background:#a3a3a3 url('../ocg-images/hp-hero-bg-1500x1000.jpg') no-repeat 40% 60%;
+        background-size: cover;
+        min-height: 675px;
+    }
     
 }
 
@@ -55,6 +62,11 @@ footer li a {
         padding: 0;
     }
     .hero,.content {min-height:475px;}
+    #ocg-home .hero {
+        background:#a3a3a3 url('../ocg-images/hp-hero-bg-1500x1000.jpg') no-repeat 30% 60%;
+        background-size: cover;
+        min-height: 675px;
+    }
 
 }
 
@@ -62,6 +74,11 @@ footer li a {
 @media (min-width: 991.98px) {
     .navbar-brand {width:45%;}
     .hero,.content {min-height:575px;}
+    #ocg-home .hero {
+        background:#a3a3a3 url('../ocg-images/hp-hero-bg-1500x1000.jpg') no-repeat 20% 60%;
+        background-size: cover;
+        min-height: 675px;
+    }
 
 }
 
@@ -69,6 +86,11 @@ footer li a {
 @media (min-width: 1199.98px) {
     .navbar-brand {width:42.5%;}
     .hero,.content {min-height:675px;}
+    #ocg-home .hero {
+        background:#a3a3a3 url('../ocg-images/hp-hero-bg-1500x1000.jpg') no-repeat 10% 60%;
+        background-size: cover;
+        min-height: 675px;
+    }
 
    
 }
@@ -77,6 +99,11 @@ footer li a {
 @media (min-width: 1399.98px) {
     .navbar-brand {width:40%;}
     .hero,.content {min-height:775px;}
+    #ocg-home .hero {
+        background:#a3a3a3 url('../ocg-images/hp-hero-bg-1500x1000.jpg') no-repeat 0% 60%;
+        background-size: cover;
+        min-height: 675px;
+    }
 
 }
 
