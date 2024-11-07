@@ -26,7 +26,11 @@ main {
     border-radius: 50%;
     width: 60%;
 }
-
+#ocg-home #tailoredSolutions {
+    background:#a3a3a3 url('../ocg-images/hp-tailoredSolutions-bg-1920x1280.jpg') no-repeat top center;
+    background-size: cover;
+    min-height: 675px;
+}
 footer {
     
 }
