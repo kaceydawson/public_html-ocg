@@ -9,6 +9,7 @@ h2 {font-size: 55px;}
 }
 .bg-ltgreen { background-color:#D2DBDA; }
 .bg-drkTeal { background-color:#386E7F; }
+.bg-shadow { background-color:rgba(0,0,0,.5); }
 
 .navbar-toggler {
     right: 15px;
@@ -35,6 +36,14 @@ main {
 #ocg-home .collapse.show {
     visibility: visible;
 }
+.darkFeature {
+
+}
+.redCheck {
+    background: url('../ocg-images/red-check.png') no-repeat 0% 1%;
+    background-size: 20px 20px;
+    padding: 0 0 0 25px;
+}    
 footer {
     
 }
@@ -60,6 +69,11 @@ footer li a {
         background-size: cover;
         min-height: 675px;
     }
+    .redCheck {
+        background: url('../ocg-images/red-check.png') no-repeat 0% 1%;
+        background-size: 20px 20px;
+        padding: 0 0 0 25px;
+    } 
     
 }
 
@@ -75,6 +89,11 @@ footer li a {
         background-size: cover;
         min-height: 675px;
     }
+    .redCheck {
+        background: url('../ocg-images/red-check.png') no-repeat 0% 2%;
+        background-size: 20px 20px;
+        padding: 0 0 0 25px;
+    }
 
 }
 
@@ -86,6 +105,11 @@ footer li a {
         background:#a3a3a3 url('../ocg-images/hp-hero-bg-1500x1000.jpg') no-repeat 20% 60%;
         background-size: cover;
         min-height: 675px;
+    }
+    .redCheck {
+        background: url('../ocg-images/red-check.png') no-repeat 0% 3%;
+        background-size: 20px 20px;
+        padding: 0 0 0 25px;
     }
 
 }
@@ -99,8 +123,11 @@ footer li a {
         background-size: cover;
         min-height: 675px;
     }
-
-   
+    .redCheck {
+        background: url('../ocg-images/red-check.png') no-repeat 0% 4%;
+        background-size: 20px 20px;
+        padding: 0 0 0 25px;
+    }
 }
 
 /*`xxl` applies to x-large devices (large desktops, less than 1400px)*/
