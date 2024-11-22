@@ -9,6 +9,7 @@ h2 {font-size: 55px;}
 }
 .bg-ltgreen { background-color:#D2DBDA; }
 .bg-drkTeal { background-color:#386E7F; }
+button.bg-drkTeal:hover { background-color:#597983; }
 .bg-shadow { background-color:rgba(0,0,0,.5); }
 
 .navbar-toggler {
@@ -16,6 +17,10 @@ h2 {font-size: 55px;}
     position: absolute;
     top: 23px;
 }
+a>button.bg-drkTeal, a>button.bg-drkTeal:hover {
+    color:#ffffff;
+}
+
 main {
     margin: 150px 0 0 0;
 }
@@ -28,7 +33,7 @@ main {
     border-radius: 50%;
     width: 60%;
 }
-#ocg-home #tailoredSolutions, #aboutUs, #ocg-ms, #ocg-consulting, #ocg-contact {
+#aboutUs, #ocg-ms, #ocg-consulting, #ocg-contact {
     background:#a3a3a3 url('../ocg-images/hp-tailoredSolutions-bg-1920x1280.jpg') no-repeat top center;
     background-size: cover;
     min-height: 675px;
