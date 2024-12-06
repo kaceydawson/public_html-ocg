@@ -9,6 +9,16 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GEXCRTRSD5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-GEXCRTRSD5');
+    </script>
+
     <!-- Favicon (TAB) icon links 
     <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
@@ -45,12 +55,12 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse d-flex flex-row justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav d-flex flex-row">
-                        <li class="nav-item me-3">
+                        <!-- <li class="nav-item me-3">
                             <a class="nav-link active" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item me-3">
+                       <li class="nav-item me-3">
                             <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item me-3">
@@ -61,10 +71,10 @@
                         </li> 
                         <li class="nav-item me-3">
                             <a class="nav-link" href="contact-us.html">Contact Us</a>
-                        </li>
+                        </li>-->
                         <li class="nav-item">
-                            <a class="nav-link" aria-disabled="true" href="form.html">
-                                <button class="btn btn-light" type="submit">Book now</button>
+                            <a class="nav-link" aria-disabled="true" href="index.html">
+                                <button class="btn btn-light" type="submit">Home</button>
                             </a>
                         </li>
                     </ul>
@@ -72,27 +82,36 @@
             </div>
         </nav>
 	</header>
-    <main id="ocg-home">
-        <div class="container-fluid">
-            <div class="container hero">
-                <h1>Home</h1>
+    <main>
+        <div class="container">
+            <div class="row py-5">
+                <div class="col" id="ToS">
+                
+                
+                    <h1><u>SMS Text Messages Terms and Conditions</u></h1>
+                    <p>From time to time, you may sign up for receiving text messages (SMS and MMS) from ThePracticeConsultant.com, LLC (“TPC”, “we” or “our”), or our authorized third parties through registration, completing a Client Interest Form, texting a designated shortcode, or scanning any QR code made available to you through us.</p>
+                    <p>BY SIGNING UP FOR INTERACTIVE MESSAGING, YOU OPT-IN, AGREE AND CONSENT TO RECEIVE TEXT MESSAGES (SMS AND MMS) AT THE TELEPHONE NUMBER YOU PROVIDED TO US, EVEN IF IT IS ON ANY <u>DO-NOT-CONTACT LIST</u> (INCLUDING ANY CORPORATE, STATE, OR FEDERAL DO-NOT-CONTACT LIST).</p>
+                    <p>You represent and warrant that you are eighteen (18) years of age or older and the primary owner of the telephone number provided.  You understand and acknowledge that such text messages may be for telemarketing and advertising purposes or operational purposes (e.g., registration, loan applications, information requests, or confirmations).  You understand and acknowledge that such messages may be sent by us or our third-party service providers using an automatic telephone dialing system or other automated means (e.g., automated text and/or artificial and/or pre-recorded messaging), and that message and data rates may apply.  Consent is not required for your use and access to our Services.</p>
+                    <p>You may opt-out of receiving SMS text messages from us at any time by: (1) replying “STOP” or (2) clicking the unsubscribe link (where available).  You may also text “HELP” for help.</p>
+                    <p>Standard message and data rates may apply to each SMS text message sent or received as provided in your mobile telephone service plan.  Please contact your mobile carrier for details.  Message frequency varies.  The delivery of SMS text messages is subject to effective transmission from your mobile service provider and is outside of our control.  We are not liable for delayed or undelivered messages.</p>
+                    <p>To the maximum extent permitted by laws: (i) all information contained in SMS text messages is “AS IS” without warranty of any kind, either express or implied, including, but not limited to, any implied warranties of merchantability, fitness for a particular purpose, or non-infringement; and (ii) we expressly exclude any liability for any direct, indirect, or consequential loss or damage incurred by any User in connection with the receipt, use, failure of, or inability to use, SMS text messages.</p> 
+                
+                
+                </div>
             </div>
         </div>
-        
+        <div style="height:110px"></div>
+
 		<footer class="container-fluid py-3 footer-dark bg-dark">
 			<div class="container">
 				<div class="row">
 
 					<div class="col-12 col-md-8">
                         <ul class="nav flex-row">
-							<li class="nav-item me-2"><a href="index.html" class="nav-link p-0"><b>Home</b> </a></li> |
-							<li class="nav-item mx-2"><a href="about.html" class="nav-link p-0"> About </a></li> |
-                            <li class="nav-item mx-2"><a href="merchant-services.html" class="nav-link p-0"> Merchant Services </a></li> |
-                            <li class="nav-item mx-2"><a href="consulting.html" class="nav-link p-0"> Consulting </a></li> |
-                            <li class="nav-item mx-2"><a href="contact-us.html" class="nav-link p-0"> Contact Us </a></li> |
+                            <li class="nav-item mx-2"><a href="index.html" class="nav-link p-0"> Home </a></li> |
 							<li class="nav-item mx-2"><a href="terms-of-service.html" class="nav-link p-0"> Terms of Service </a></li> |
                             <li class="nav-item mx-2"><a href="privacy-policy.html" class="nav-link p-0"> Privacy Policy </a></li> |
-                            <li class="nav-item mx-2"><a href="sms.html" class="nav-link p-0"> SMS Policy </a></li>  
+                            <li class="nav-item mx-2"><a href="sms-policy.html" class="nav-link p-0"> SMS Policy </a></li>  
 						</ul>
 						<p class="my-2">&copy; 2024 OwnersConsultingGroup.com, LLC. All rights reserved.</p>
                     </div>
