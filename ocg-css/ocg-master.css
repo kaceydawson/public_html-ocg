@@ -147,3 +147,12 @@ footer li a {
 
 }
 
+WOJ1sxVGkm6QvTCaMjvN p, .WOJ1sxVGkm6QvTCaMjvN ul, .WOJ1sxVGkm6QvTCaMjvN ol, .WOJ1sxVGkm6QvTCaMjvN li, .WOJ1sxVGkm6QvTCaMjvN a {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Proxima Nova", sans-serif;
+    line-height: 1.5;
+    color: black!important;
+}
+
