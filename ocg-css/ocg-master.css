@@ -1,6 +1,6 @@
 
-h1 {font-size: 75px;}
-h2 {font-size: 55px;}
+h1 {font-size: 75px; text-shadow: 0px 0px 25px rgba(102, 102, 102, 0.9); }
+h2 {font-size: 55px; }
 
 .accent-green {
     -webkit-box-shadow: 0px 33px 5px -1px rgba(24,77,71,1);
@@ -25,16 +25,17 @@ main {
     margin: 150px 0 0 0;
 }
 #ocg-home .hero {
-    background:#a3a3a3 url('../ocg-images/hp-hero-bg-1500x1000.jpg') no-repeat 60% 60%;
+    background:#000000 url('../ocg-images/hp-hero-bg-1500x1000.jpg') no-repeat 60% 60%;
     background-size: cover;
     min-height: 675px;
+    background-color: #000000!important;
 }
 #ourExpertise img {
     border-radius: 50%;
     width: 60%;
 }
 #aboutUs, #ocg-ms, #ocg-consulting, #ocg-contact {
-    background:#a3a3a3 url('../ocg-images/hp-tailoredSolutions-bg-1920x1280.jpg') no-repeat top center;
+    background:#000000 url('../ocg-images/hp-tailoredSolutions-bg-1920x1280.jpg') no-repeat top center;
     background-size: cover;
     min-height: 675px;
 }
@@ -50,7 +51,7 @@ main {
     padding: 0 0 0 25px;
 }    
 footer {
-    
+    background-color: #000000;
 }
 footer i {
     font-size:3em; color:#ffffff;
